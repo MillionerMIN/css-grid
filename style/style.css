@@ -7,25 +7,35 @@
   text-shadow: 0px 2px 2px #000;
 }
 
-div {
-  border: 1px dashed #000;
-}
-
 /*-----------------------------------*/
 
 .grid {
-
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 300px;
-  align-items: center;
-  justify-items: center ;
+  height: 600px;
+  grid-gap: 15px;
+  border: 1px dashed #000;
+  justify-content: space-evenly;
+  /*start|end|center|space-between| space-around*/
+  align-content: space-evenly;
+  /*start|end|center|space-between| space-around*/
 }
 
-.grid-item {}
+.grid-item {
+  width: 100px;
+  height: 100px;
+}
 
 .grid-item1 {
-  align-self: center;
-  justify-self: center;
+
   background: lightpink;
+}
+
+.grid-item2 {
+
+  background: rgb(232, 182, 255);
+}
+
+.grid-item3 {
+
+  background: rgb(215, 255, 182);
 }
