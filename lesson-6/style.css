@@ -1,0 +1,41 @@
+* {
+  font-family: Robboto, sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0px 2px 2px #000;
+}
+
+/*-----------------------------------*/
+
+.grid {
+  display: grid;
+  height: 600px;
+  grid-gap: 15px;
+  border: 1px dashed #000;
+  justify-content: space-evenly;
+  /*start|end|center|space-between| space-around*/
+  align-content: space-evenly;
+  /*start|end|center|space-between| space-around*/
+}
+
+.grid-item {
+  width: 100px;
+  height: 100px;
+}
+
+.grid-item1 {
+
+  background: lightpink;
+}
+
+.grid-item2 {
+
+  background: rgb(232, 182, 255);
+}
+
+.grid-item3 {
+
+  background: rgb(215, 255, 182);
+}
